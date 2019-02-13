@@ -1,5 +1,10 @@
 <template>
   <section class="container">
+    <div class="box"><Asection /></div>
+    <div class="box"><Bsection /></div>
+    <div class="box"><Cseciton /></div>
+      
+
     <div>
       <logo />
       <h1 class="title">
@@ -22,15 +27,20 @@
       </div>
     </div>
   <Akazukin />
+
   </section>
 </template>
 
 <script>
 import Akazukin from '~/components/Akazukin.vue'
+import Asection from '~/components/Asection.vue'
+import Bsection from '~/components/Bsection.vue'
+import Csection from '~/components/Csection.vue'
 
 export default {
   components: {
-    Akazukin
+    Akazukin,
+    Asection, Bsection,Csection
   }
 }
 
@@ -46,6 +56,13 @@ export default {
   text-align: center;
 }
 
+.box {
+  overflow: auto;
+	height:100%;
+	padding: 0 30px 0 10px;
+	float: left;
+	width: 900px;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;

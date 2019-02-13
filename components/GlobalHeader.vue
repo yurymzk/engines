@@ -2,9 +2,9 @@
 <header>
     <nav class="header">
         <ul>
-            <li>page1</li>
-            <li>page2</li>
-            <li>page3</li>
+            <li>Asection</li>
+            <li>Bsection</li>
+            <li>Csection</li>
         </ul>
     </nav>
 </header>
