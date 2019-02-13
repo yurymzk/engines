@@ -2,11 +2,11 @@
 <header>
     <nav class="header">
         <ul>
-            <li>Logo</li>
-            <li>Game</li>
-            <li>KIDS</li>
-            <li>SOLUTION</li>
-            <li>ABOUT</li>
+            <li class="logo">Logo</li>
+            <li class="section"><img src="/images/en_icon_game_01.png">game</li>
+            <li class="section"><img src="/images/en_icon_kids_01.png">kids</li>
+            <li class="section"><img src="/images/en_icon_solution_01.png">solution</li>
+            <li class="section"><img src="/images/en_icon_about_01.png">about</li>
         </ul>
     </nav>
 </header>
@@ -14,8 +14,8 @@
 
 <style>
 header {
-    background-color: #fff;
-    width: 60px;
+    background-color: gray;
+    width: 10vw;
     height: 100vh;
     z-index: 10;
     cursor: pointer;
@@ -26,11 +26,34 @@ header {
     transition: all  0.3s ease;
 }
 
-header:hover {
-    background-color: pink;  
-}
-nav li { display: inline-block; }
 
+nav {
+    height: 100vh;
+}
+
+nav ul {
+    height: 100vh;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li { 
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav li.logo {
+    height: 80px;
+    vertical-align: middle;
+    background-color: black;
+    
+}
+
+nav li.section img {
+    width: 7vw;
+}
 .nav {
     background: #000;
     display: none;

@@ -10,7 +10,7 @@
   position:absolute ;
   z-index: 15;
   bottom: 30px;
-  left: 70px;
+  left: 150px;
 }
 
 /* キャラクター */
