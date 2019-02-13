@@ -2,9 +2,11 @@
 <header>
     <nav class="header">
         <ul>
-            <li>Asection</li>
-            <li>Bsection</li>
-            <li>Csection</li>
+            <li>Logo</li>
+            <li>Game</li>
+            <li>KIDS</li>
+            <li>SOLUTION</li>
+            <li>ABOUT</li>
         </ul>
     </nav>
 </header>

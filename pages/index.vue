@@ -1,9 +1,9 @@
 <template>
   <section class="container">
-    <div class="box"><Asection /></div>
-    <div class="box"><Bsection /></div>
-    <div class="box"><Cseciton /></div>
-      
+    <div class="box"><GameSection /></div>
+    <div class="box"><KidsSection /></div>
+    <div class="box"><SolutionSeciton /></div>
+    <div class="box"><AboutSeciton /></div>
 
     <div>
       <logo />
@@ -33,14 +33,15 @@
 
 <script>
 import Akazukin from '~/components/Akazukin.vue'
-import Asection from '~/components/Asection.vue'
-import Bsection from '~/components/Bsection.vue'
-import Csection from '~/components/Csection.vue'
+import GameSection from '~/components/GameSection.vue'
+import KidsSection from '~/components/KidsSection.vue'
+import SolutionSeciton from '~/components/SolutionSeciton.vue'
+import AboutSeciton from '~/components/AboutSeciton.vue'
 
 export default {
   components: {
     Akazukin,
-    Asection, Bsection,Csection
+    GameSection, KidsSection,SolutionSeciton,AboutSeciton
   }
 }
 
