@@ -10,12 +10,12 @@
   position:absolute ;
   z-index: 15;
   bottom: 30px;
-  left: 70px;
+  left: 100px;
 }
 
 /* キャラクター */
 #main_chara img {
-    width: 50px;
+    width: 100px;
 }
 
 
