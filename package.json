@@ -11,11 +11,13 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^0.5.5",
     "cross-env": "^5.2.0",
     "nuxt": "^2.3.4",
     "vue": "^2.6.3",
     "vue-server-renderer": "^2.6.3",
-    "vue-template-compiler": "^2.6.3"
+    "vue-template-compiler": "^2.6.3",
+    "vue2-google-maps": "^0.10.6"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

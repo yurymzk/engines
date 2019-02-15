@@ -13,12 +13,6 @@
 
     <div>
       <logo />
-      <h1 class="title">
-        engines
-      </h1>
-      <h2 class="subtitle">
-        My prime ENGINES project
-      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -54,7 +48,6 @@ export default {
     GameSection, KidsSection,SolutionSeciton,AboutSeciton
   }
 }
-
 </script>
 
 <style>
@@ -93,7 +86,7 @@ export default {
 
 .backgroundGR {
     position: absolute;
-    left: 7000px;
+    left: 7018px;
     width: 600px;
     height: 100vh;
     z-index: -10;
