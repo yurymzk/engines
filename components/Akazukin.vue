@@ -15,7 +15,7 @@
 
 /* キャラクター */
 #main_chara img {
-    width: 50px;
+    width: 100px;
 }
 
 
