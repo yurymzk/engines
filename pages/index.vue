@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section id="container">
     <div class="backgroundLB"></div>
     <div class="backgroundBK"></div>
     <div class="backgroundGR"></div>
@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style>
-.container {
+#container {
   height: 100vh;
   width: 9815px;
   display: flex;

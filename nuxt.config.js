@@ -16,7 +16,8 @@ module.exports = {
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-      { src: '/assets/jquery/jquery.mousewheel.js' },
+      { src: '/jquery/jquery.mousewheel.min.js' },
+      { src: '/jquery/custom.js' },
       
     ],
     link: [
