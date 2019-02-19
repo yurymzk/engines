@@ -1,11 +1,9 @@
 <template>
     <div id="MovieSection">
         <div class="MovieWindowWrapper">
-            <video id="Video" poster="" muted autoplay loop>
-                <source src="/movie.mp4" type="video/mp4">
-                <source src="/movie.webm" type="video/webm">
-                <p>video要素がサポートされていないブラウザでご覧になっています。</p>
-            </video>
+                <div id="video">
+                <iframe src="https://www.youtube.com/embed/S8W4yDXQ4Lc?playlist=S8W4yDXQ4Lc&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             <div class="logo"></div>                
         </div>
     </div>
@@ -14,13 +12,17 @@
 
 
 <style>
-#MovieSaction .MovieWindowWrapper {
+#MovieSection {
+    height: 100vh;
+    width: 100vw;
+}
+#MovieSection .MovieWindowWrapper {
     height: 100vh;
     position: relative;
     width: 100%;
 }
 
-#MovieSaction #video {
+#MovieSection #video {
     background: url('/video/video_bg.jpg') no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -36,9 +38,18 @@
     top: 0;
     left: 0;
 
-    z-index: 0;
+    
 }
 
-#MovieSaction .logo {
+#MovieSection #video iframe{
+  position: fixed;
+  z-index: 0;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+#MovieSection .logo {
 }
 </style>
