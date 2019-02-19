@@ -8,6 +8,7 @@
 <style>
 
 #VisionSection {
+    background-color: white;
     height: 100vh;
     width: 1200px;
     position: relative;

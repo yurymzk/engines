@@ -15,6 +15,7 @@
 #MovieSection {
     height: 100vh;
     width: 100vw;
+    z-index: -20;
 }
 #MovieSection .MovieWindowWrapper {
     height: 100vh;

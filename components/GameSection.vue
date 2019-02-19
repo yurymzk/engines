@@ -30,6 +30,7 @@ export default {
 <style>
 
 #GameSection {
+    background-color: white;
     height: 100vh;
     width: 2000px;
     position: relative;

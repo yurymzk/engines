@@ -24,6 +24,7 @@
 
 <style>
 #SolutionSection {
+    background-color: white;
     height: 100vh;
     width: 2500px;
     position: relative;

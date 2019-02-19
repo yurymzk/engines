@@ -37,6 +37,7 @@ export default {
 
 <style>
 #AboutSection {
+    background-color: white;
     height: 100vh;
     width: 1000px;
     position: relative;
