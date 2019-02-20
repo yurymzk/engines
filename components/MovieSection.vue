@@ -4,8 +4,7 @@
                 <div id="video">
                 <iframe src="https://www.youtube.com/embed/S8W4yDXQ4Lc?autoplay=1&loop=1&mute=1&showinfo=0&controls=0&playlist=S8W4yDXQ4Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div id="video-overlay"></div>
-            <div class="logo"></div>                
+                <div id="video-overlay"></div>          
         </div>
     </div>
 </template>
@@ -15,7 +14,7 @@
 <style>
 #MovieSection {
     height: 100vh;
-    width: 200vw;
+    width: 190vw;
 }
 #MovieSection .MovieWindowWrapper {
     height: 100vh;
@@ -52,8 +51,5 @@
   left: 50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-}
-
-#MovieSection .logo {
 }
 </style>

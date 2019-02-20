@@ -28,6 +28,8 @@
     </div>
   <Akazukin />
 
+  <Loading />
+
   </section>
 </template>
 
@@ -39,13 +41,15 @@ import GameSection from '~/components/GameSection.vue'
 import KidsSection from '~/components/KidsSection.vue'
 import SolutionSeciton from '~/components/SolutionSeciton.vue'
 import AboutSeciton from '~/components/AboutSeciton.vue'
+import Loading from '~/components/Loading.vue'
 
 export default {
   components: {
     Akazukin,
     MovieSection,
     VisionSection,
-    GameSection, KidsSection,SolutionSeciton,AboutSeciton
+    GameSection, KidsSection,SolutionSeciton,AboutSeciton,
+    Loading
   }
 }
 </script>

@@ -1,8 +1,10 @@
 <template>
 <header>
+    <a class="logo-trigger">
+        <img src="">ENGINES LOGO
+    </a>
     <nav class="header">
         <ul>
-            <li class="logo">Logo</li>
             <li class="section"><img src="/images/en_icon_game_01.png">game</li>
             <li class="section"><img src="/images/en_icon_kids_01.png">kids</li>
             <li class="section"><img src="/images/en_icon_solution_01.png">solution</li>
@@ -13,8 +15,16 @@
 </template>
 
 <style>
+.logo-trigger {
+    display: block;
+    transition: all .4s;
+    cursor: pointer;
+    background-color : #000;
+}
+
+
 header {
-    background-color: gray;
+    
     width: 10vw;
     height: 100vh;
     z-index: 10;
@@ -28,11 +38,14 @@ header {
 
 
 nav {
+    display: none;
+    background-color: gray;
+
     height: 100vh;
 }
 
 nav ul {
-    height: 100vh;
+
     padding: 0;
     list-style-type: none;
 }

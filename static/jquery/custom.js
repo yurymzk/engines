@@ -1,3 +1,17 @@
+// すべての要素が読み込み終わったら、ローディング画面を非表示にする
+$(window).on('load',function() {
+    $('html, body').animate({ scrollLeft: 0}, '1');
+
+    $(".loading").delay(1200).fadeOut(800);
+});
+
+
+// メニューのスライド
+$(function(){
+    $('.logo-trigger').on('click',function() {
+        $('nav').slideToggle();
+    });
+});
 
 //横スクロール
 $(function() {
@@ -18,7 +32,7 @@ $(function() {
 
         return false; // 縦スクロール不可
     });
-    $('a[href^=#]').click(function() {
+    $('a[href^="#"]').on('click',function() {
         var speed = 400;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
