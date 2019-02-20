@@ -10,7 +10,7 @@
 #VisionSection {
     background-color: white;
     height: 100vh;
-    width: 1200px;
+    width: 100vw;
     position: relative;
 }
 

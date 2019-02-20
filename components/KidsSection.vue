@@ -23,18 +23,17 @@
 </template>
 
 <style>
-#KidsSection {
-    background-color: white;    
+#KidsSection { 
     height: 100vh;
-    width: 2500px;
+    width: 100vw;
     position: relative;    
 }
 
 #KidsSection .background {
     position: absolute;
-    width: 2000px;
+    width: 100vw;
     height: 100vh;
-    margin-left: 230px;
+    margin-left: 135px;
 
     background-color: red;
     transform:skew(-18deg);
@@ -56,7 +55,7 @@
 #KidsSection .KidsIcon {
     position: absolute;
     top: 30%;
-    left: 140px;
+    left: 70px;
 }
 
 #KidsSection .titleBox {

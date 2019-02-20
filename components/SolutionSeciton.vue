@@ -24,17 +24,16 @@
 
 <style>
 #SolutionSection {
-    background-color: white;
     height: 100vh;
-    width: 2500px;
+    width: 115vw;
     position: relative;
 }
 
 #SolutionSection .background {
     position: absolute;
-    width: 1740px;
+    width: 100vw;
     height: 100vh;
-    margin-left: -18px;
+    margin-left: 411px;
 
     background-color: lightgray;
     transform:skew(18deg);
@@ -56,7 +55,7 @@
 #SolutionSection .SolutionIcon {
     position: absolute;
     top: 30%;
-    left: -160px;
+    left: 295px;
 }
 
 #SolutionSection .titleBox {

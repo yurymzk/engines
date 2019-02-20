@@ -14,7 +14,7 @@
 <style>
 #MovieSection {
     height: 100vh;
-    width: 190vw;
+    width: 90vw;
 }
 #MovieSection .MovieWindowWrapper {
     height: 100vh;

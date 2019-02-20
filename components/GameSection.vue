@@ -30,7 +30,6 @@ export default {
 <style>
 
 #GameSection {
-    background-color: white;
     height: 100vh;
     width: 2000px;
     position: relative;
@@ -40,9 +39,9 @@ export default {
     position: absolute;
     width: 2000px;
     height: 100vh;
-    margin-left: 100px;
+    margin-left: 0px;
     border-bottom: 100vh solid cornflowerblue;
-    border-left: 150px solid transparent;
+    border-left: 270px solid #fff;
     border-right: 200px solid transparent;
 
 }

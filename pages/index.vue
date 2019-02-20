@@ -57,7 +57,7 @@ export default {
 <style>
 #container {
   height: 100vh;
-  width: 9815px;
+  width: 660vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,30 +70,27 @@ export default {
 
 .backgroundLB {
     position: absolute;
-    left: 3020px;
+    left: 305vw;
     width: 600px;
     height: 100vh;
-    z-index: -10;
     background-image: linear-gradient(-45deg,lightblue 25%, rgb(137, 191, 245) 25%, rgb(137, 191, 245) 50%,lightblue 50%, lightblue 75%, rgb(137, 191, 245) 75%,  rgb(137, 191, 245));
     background-size: 14px 14px;
 }
 
 .backgroundBK {
     position: absolute;
-    left: 5280px;
+    left: 416vw;
     width: 600px;
     height: 100vh;
-    z-index: -10;
     background-image: linear-gradient(-45deg,gray 25%, lightgray 25%, lightgray 50%,gray 50%, gray 75%, lightgray 75%,  lightgray);
     background-size: 14px 14px;
 }
 
 .backgroundGR {
     position: absolute;
-    left: 7018px;
+    left: 700vw;
     width: 600px;
     height: 100vh;
-    z-index: -10;
     background-color: lightgray;
 
 }
