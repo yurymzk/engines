@@ -5,10 +5,10 @@
     </a>
     <nav class="header">
         <ul>
-            <li class="section"><img src="/images/en_icon_game_01.png">game</li>
-            <li class="section"><img src="/images/en_icon_kids_01.png">kids</li>
-            <li class="section"><img src="/images/en_icon_solution_01.png">solution</li>
-            <li class="section"><img src="/images/en_icon_about_01.png">about</li>
+            <li class="section"><a href="#GameSection"><img src="/images/en_icon_game_01.png">game</a></li>
+            <li class="section"><a href="#KidsSection"><img src="/images/en_icon_kids_01.png">kids</a></li>
+            <li class="section"><a href="#SolutionSection"><img src="/images/en_icon_solution_01.png">solution</a></li>
+            <li class="section"><a href="#AboutSection"><img src="/images/en_icon_about_01.png">about</a></li>
         </ul>
     </nav>
 </header>
@@ -24,7 +24,7 @@
 
 
 header {
-    
+
     width: 10vw;
     height: 100vh;
     z-index: 10;
@@ -50,7 +50,7 @@ nav ul {
     list-style-type: none;
 }
 
-nav li { 
+nav li {
     margin: 0;
     padding: 10px;
     text-align: center;
@@ -61,7 +61,7 @@ nav li.logo {
     height: 80px;
     vertical-align: middle;
     background-color: black;
-    
+
 }
 
 nav li.section img {
