@@ -2,7 +2,7 @@
     <div id="AboutSection">
         <div class="background">
             <div class="AboutWindowWrapper">
-                <div>
+                <div class="AboutBox">
                     <dl>
                         <dt>社名</dt><dd>株式会社エンジンズ／ENGINES　Inc</dd>
                         <dt>本社所在地</dt><dd>〒541-0044大阪市中央区伏見町2-2-6青山ビル４F</dd>
@@ -55,11 +55,14 @@ export default {
 #AboutSection .AboutWindowWrapper {
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     align-self: flex-start;
 }
 
+#AboutSection .AboutBox {
+    width: 50em;
+    padding: 3em;
+}
 #AboutSection dl {
     text-align: left;
 }
