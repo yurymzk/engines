@@ -22,7 +22,10 @@ module.exports = {
 
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', size: '152x152', href: 'images/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', size: '152x152', href: 'images/android-chrome.png' }
+
     ]
   },
 
