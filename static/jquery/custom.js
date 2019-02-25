@@ -46,7 +46,7 @@ $(function() {
         var speed = 300;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().left; // target の位置を取得
+        var position = target.offset().left - 100; // target の位置を取得
         $('html, body').animate({scrollLeft:position}, speed, 'swing');
         return false;
     });
