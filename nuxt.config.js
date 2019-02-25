@@ -18,6 +18,7 @@ module.exports = {
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
       { src: '/jquery/ua.check.js' },
       { src: '/jquery/jquery.mousewheel.min.js' },
+      { src: '/jquery/jquery.easie.js' },
       { src: '/jquery/custom.js' },
 
     ],
