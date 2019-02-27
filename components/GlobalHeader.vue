@@ -1,8 +1,13 @@
 <template>
 <header>
-    <a class="logo-trigger">
-        <img src="">ENGINES LOGO
+  <div class="logo">
+    <a class="logo-home">
+        <img src="/images/ew_enlogo_icon.png">
     </a>
+    <a class="logo-trigger">
+      ▽
+    </a>
+  </div>
     <nav class="header">
         <ul>
             <li class="section"><a href="#GameSection"><img src="/images/en_icon_game_01.png">game</a></li>
@@ -15,11 +20,23 @@
 </template>
 
 <style>
+.logo {
+  height: 40%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.logo-home {
+  display: block;
+  background-color: #000;
+  height : 90%;
+}
 .logo-trigger {
     display: block;
     transition: all .4s;
-    cursor: pointer;
-    background-color : #000;
+
+    background-color : #333;
+    height : 10%;
 }
 
 
@@ -28,7 +45,6 @@ header {
     width: 10vw;
     height: 100vh;
     z-index: 10;
-    cursor: pointer;
     position: fixed;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
