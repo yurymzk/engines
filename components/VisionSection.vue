@@ -9,7 +9,7 @@
 
 #VisionSection {
     background-color: white;
-    background-image: url('/images/en_back_concept.png');
+    background-image: url('/images/en_back_concept.gif');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     height: 100vh;

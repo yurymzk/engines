@@ -1,8 +1,8 @@
 <template>
-    <div id="AboutSection">
+    <div id="CompanySection">
         <div class="background">
-            <div class="AboutWindowWrapper">
-                <div class="AboutBox">
+            <div class="CompanyWindowWrapper">
+                <div class="CompanyBox">
                     <dl>
                         <dt>社名</dt><dd>株式会社エンジンズ／ENGINES　Inc</dd>
                         <dt>本社所在地</dt><dd>〒541-0044大阪市中央区伏見町2-2-6青山ビル４F</dd>
@@ -23,7 +23,7 @@
                 </div>
                 <GoogleMap />
             </div>
-            <div class="AboutIcon" id="AboutLink"><img src="/images/en_icon_about_01.png"></div>
+            <div class="CompanyIcon" id="CompanyLink"><img src="/images/en_icon_company_01.png"></div>
         </div>
     </div>
 </template>
@@ -38,50 +38,50 @@ export default {
 </script>
 
 <style>
-#AboutSection {
+#CompanySection {
     background-color: white;
     height: 100vh;
     width: 100vw;
     position: relative;
 }
 
-#AboutSection .background {
+#CompanySection .background {
     position: absolute;
     width: 100vw;
     height: 100vh;
     margin-left: 200px;
 
 }
-#AboutSection .AboutWindowWrapper {
+#CompanySection .CompanyWindowWrapper {
     height: 100vh;
     display: flex;
     align-items: center;
     align-self: flex-start;
 }
 
-#AboutSection .AboutBox {
+#CompanySection .CompanyBox {
     width: 50em;
     padding: 3em;
 }
-#AboutSection dl {
+#CompanySection dl {
     text-align: left;
 }
 
-#AboutSection dt {
+#CompanySection dt {
     position: absolute;
     left: 0;
     width : 5em;
     padding-top: 10px;
 }
 
-#AboutSection dd {
+#CompanySection dd {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7em;
     border-bottom: solid 1px #ccc;
 }
 
-#AboutSection .AboutIcon {
+#CompanySection .CompanyIcon {
     position: absolute;
     top: 30%;
     left: -310px;

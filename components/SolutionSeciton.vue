@@ -25,15 +25,15 @@
 <style>
 #SolutionSection {
     height: 100vh;
-    width: 115vw;
+    width: 138vw;
     position: relative;
 }
 
 #SolutionSection .background {
     position: absolute;
-    width: 100vw;
+    width: 130vw;
     height: 100vh;
-    margin-left: 411px;
+    margin-left: 388px;
 
     background-color: #D3D3D3;
     transform:skew(18deg);

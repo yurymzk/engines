@@ -15,7 +15,7 @@
             <li class="section"><a href="#GameLink"><img src="/images/en_menu_game_01.png"></a></li>
             <li class="section"><a href="#KidsLink"><img src="/images/en_menu_kids_01.png"></a></li>
             <li class="section"><a href="#SolutionLink"><img src="/images/en_menu_solu_01.png"></a></li>
-            <li class="section"><a href="#AboutLink"><img src="/images/en_menu_company_01.png"></a></li>
+            <li class="section"><a href="#CompanyLink"><img src="/images/en_menu_company_01.png"></a></li>
         </ul>
     </nav>
 </header>

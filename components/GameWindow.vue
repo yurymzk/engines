@@ -1,7 +1,7 @@
 <template>
     <div id="GameWindow">
         <div class="backgroundTR"></div>
- 
+
         <div class="image"></div>
         <div class="infomation">
             <div class="title"></div>
@@ -21,6 +21,7 @@
     background-image: linear-gradient(-45deg,white 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%,white 50%, white 75%, rgba(0, 0, 0, 0) 75%,  rgba(0, 0, 0, 0));
     background-size:8px 8px;
     margin: 30px;
+    z-index: 2;
 
 }
 
@@ -31,6 +32,6 @@
     right: 10px;
     bottom: 10px;
    background-color: blueviolet;
-   
+
 }
 </style>
