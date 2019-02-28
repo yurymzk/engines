@@ -48,7 +48,7 @@ $(function() {
     });
 
     $('a[href^="#"]').on('click',function() {
-        var speed = 300;
+        var speed = 200;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().left; // target の位置を取得

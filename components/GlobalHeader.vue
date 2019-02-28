@@ -1,7 +1,7 @@
 <template>
 <header>
   <div class="logo">
-    <a class="logo-home">
+    <a class="logo-home" href="#container">
         <img src="/images/ew_enlogo_icon.png">
     </a>
   </div>
