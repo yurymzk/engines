@@ -9,6 +9,9 @@
 
 #VisionSection {
     background-color: white;
+    background-image: url('/images/en_back_concept.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     position: relative;
