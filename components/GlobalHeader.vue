@@ -4,16 +4,18 @@
     <a class="logo-home">
         <img src="/images/ew_enlogo_icon.png">
     </a>
-    <a class="logo-trigger">
-      ▽
+  </div>
+  <div>
+      <a class="logo-trigger">
+      <i class="fas fa-angle-down fa-2x"></i>
     </a>
   </div>
     <nav class="header">
         <ul>
-            <li class="section"><a href="#GameSection"><img src="/images/en_icon_game_01.png">game</a></li>
-            <li class="section"><a href="#KidsSection"><img src="/images/en_icon_kids_01.png">kids</a></li>
-            <li class="section"><a href="#SolutionSection"><img src="/images/en_icon_solution_01.png">solution</a></li>
-            <li class="section"><a href="#AboutSection"><img src="/images/en_icon_about_01.png">about</a></li>
+            <li class="section"><a href="#GameSection"><img src="/images/en_menu_game_01.png"></a></li>
+            <li class="section"><a href="#KidsSection"><img src="/images/en_menu_kids_01.png"></a></li>
+            <li class="section"><a href="#SolutionSection"><img src="/images/en_menu_solu_01.png"></a></li>
+            <li class="section"><a href="#AboutSection"><img src="/images/en_menu_company_01.png"></a></li>
         </ul>
     </nav>
 </header>
@@ -21,25 +23,39 @@
 
 <style>
 .logo {
-  height: 40%;
+  height: 15%;
   cursor: pointer;
   text-align: center;
+  transition: all 1s ease 0s;
 }
 
 .logo-home {
-  display: block;
   background-color: #000;
-  height : 90%;
+  height : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.logo-change-height {
+  height: 40%;
+  transition: all 1s ease 0s;
+}
+
 .logo-trigger {
     display: block;
     transition: all .4s;
-
+    text-align: center;
     background-color : #333;
     height : 10%;
+    color: white;
+    cursor: pointer;
 }
 
-
+.rotate {
+  transform: rotate(180deg);
+  transition: all 1s ease 0s;
+}
 header {
 
     width: 10vw;
@@ -55,7 +71,7 @@ header {
 
 nav {
     display: none;
-    background-color: gray;
+    background-color: rgba(0,0,0,0.5);
 
     height: 100vh;
 }
@@ -63,12 +79,13 @@ nav {
 nav ul {
 
     padding: 0;
+    padding-top: 10px;
     list-style-type: none;
 }
 
 nav li {
     margin: 0;
-    padding: 10px;
+    padding: 0;
     text-align: center;
     color: white;
 }

@@ -35,7 +35,7 @@
     height: 100vh;
     margin-left: 411px;
 
-    background-color: lightgray;
+    background-color: #D3D3D3;
     transform:skew(18deg);
     -webkit-transform: skew(18deg);
 	   -moz-transform: skew(18deg);

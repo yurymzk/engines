@@ -23,10 +23,10 @@
 </template>
 
 <style>
-#KidsSection { 
+#KidsSection {
     height: 100vh;
     width: 100vw;
-    position: relative;    
+    position: relative;
 }
 
 #KidsSection .background {
@@ -35,7 +35,7 @@
     height: 100vh;
     margin-left: 135px;
 
-    background-color: red;
+    background-color: #FF1B1B;
     transform:skew(-18deg);
     -webkit-transform: skew(-18deg);
 	   -moz-transform: skew(-18deg);

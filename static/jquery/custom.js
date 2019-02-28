@@ -9,7 +9,12 @@ $(window).on('load',function() {
 // メニューのスライド
 $(function(){
     $('.logo-trigger').on('click',function() {
+      $.when(
+        $('.logo').toggleClass('logo-change-height')
+        ).done(function(){
         $('nav').slideToggle();
+      });
+      $('.fa-angle-down').toggleClass('rotate');
     });
 });
 

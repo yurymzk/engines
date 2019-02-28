@@ -10,7 +10,7 @@
         </div>
         <div class="gameIcon"><img src="/images/en_icon_game_01.png"></div>
 
-        
+
         <div class="button">ボタン</div>
 
     </div>
@@ -40,7 +40,7 @@ export default {
     width: 2000px;
     height: 100vh;
     margin-left: 0px;
-    border-bottom: 100vh solid cornflowerblue;
+    border-bottom: 100vh solid #3FA2FF;
     border-left: 270px solid #fff;
     border-right: 200px solid transparent;
 
@@ -67,6 +67,6 @@ export default {
     margin-right: 50px;
     margin-bottom:50px;
     padding: 20px;
- 
+
 }
 </style>

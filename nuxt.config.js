@@ -25,7 +25,8 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', size: '152x152', href: 'images/apple-touch-icon.png' },
-      { rel: 'icon', type: 'image/png', size: '152x152', href: 'images/android-chrome.png' }
+      { rel: 'icon', type: 'image/png', size: '152x152', href: 'images/android-chrome.png' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.7.2/css/all.css', integrity: 'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr', crossorigin: 'anonymous'}
 
     ]
   },
