@@ -23,7 +23,7 @@
                 </div>
                 <GoogleMap />
             </div>
-            <div class="AboutIcon"><img src="/images/en_icon_about_01.png"></div>
+            <div class="AboutIcon" id="AboutLink"><img src="/images/en_icon_about_01.png"></div>
         </div>
     </div>
 </template>
@@ -85,6 +85,8 @@ export default {
     position: absolute;
     top: 30%;
     left: -310px;
+    margin-left: -200px;
+    padding-left: 200px;
 }
 
 </style>

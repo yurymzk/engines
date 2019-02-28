@@ -8,8 +8,8 @@
                 <GameWindow />
             </div>
         </div>
-        <div class="gameIcon"><img src="/images/en_icon_game_01.png"></div>
 
+        <div class="gameIcon" id="GameLink"><img src="/images/en_icon_game_01.png"></div>
 
         <div class="button">ボタン</div>
 
@@ -28,6 +28,10 @@ export default {
 
 
 <style>
+
+
+
+
 
 #GameSection {
     height: 100vh;
@@ -57,6 +61,8 @@ export default {
     position: absolute;
     top: 30%;
     left: 80px;
+    margin-left: -200px;
+    padding-left: 200px;
 }
 
 

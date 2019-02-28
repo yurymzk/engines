@@ -15,7 +15,7 @@
 
     </div>
 
-    <div class="SolutionIcon"><img src="/images/en_icon_solution_01.png"></div>
+    <div class="SolutionIcon" id="SolutionLink"><img src="/images/en_icon_solution_01.png"></div>
 
 
 
@@ -56,6 +56,8 @@
     position: absolute;
     top: 30%;
     left: 295px;
+    margin-left: -200px;
+    padding-left: 200px;
 }
 
 #SolutionSection .titleBox {

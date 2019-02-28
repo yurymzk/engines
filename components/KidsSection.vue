@@ -15,7 +15,7 @@
 
     </div>
 
-    <div class="KidsIcon"><img src="/images/en_icon_kids_01.png"></div>
+    <div class="KidsIcon" id="KidsLink"><img src="/images/en_icon_kids_01.png"></div>
 
 
 
@@ -56,6 +56,8 @@
     position: absolute;
     top: 30%;
     left: 70px;
+    margin-left: -200px;
+    padding-left: 200px;
 }
 
 #KidsSection .titleBox {
