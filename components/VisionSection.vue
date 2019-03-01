@@ -30,7 +30,7 @@
 #VisionSection .copy {
     text-align: right;
     position: absolute;
-    right: 0;
+    right: 225px;
     bottom: 0;
     padding: 40px;
 }

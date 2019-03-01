@@ -60,8 +60,9 @@ export default {
 }
 
 #CompanySection .CompanyBox {
-    width: 50em;
-    padding: 3em;
+    width: 40em;
+    padding-right: 2em;
+    font-size: 0.8em;
 }
 #CompanySection dl {
     text-align: left;

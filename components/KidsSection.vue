@@ -1,6 +1,7 @@
 <template>
     <div id="KidsSection">
     <div class="background">
+        <div class="KidsBackImg1"><img src="/images/en_back_kids.png"></div>
         <div class="KidsWindowWrapper">
             <div class="titleBox">
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
@@ -36,10 +37,10 @@
     margin-left: 135px;
 
     background-color: #FF1B1B;
-    transform:skew(-18deg);
-    -webkit-transform: skew(-18deg);
-	   -moz-transform: skew(-18deg);
-	     -o-transform: skew(-18deg);
+    transform:skew(-7deg);
+    -webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
 }
 
 #KidsSection .KidsWindowWrapper {
@@ -47,17 +48,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform:skew(18deg);
-        -webkit-transform: skew(18deg);
-	       -moz-transform: skew(18deg);
-	         -o-transform: skew(18deg);}
+    transform:skew(7deg);
+        -webkit-transform: skew(7deg);
+	       -moz-transform: skew(7deg);
+	         -o-transform: skew(7deg);
+}
 
 #KidsSection .KidsIcon {
     position: absolute;
     top: 30%;
-    left: 70px;
+    left: 50px;
     margin-left: -200px;
     padding-left: 200px;
+}
+
+#KidsSection .KidsBackImg1 {
+    position: absolute;
+     margin-top: -9%;
+    left: 135px;
+    transform:skew(7deg);
+        -webkit-transform: skew(7deg);
+	       -moz-transform: skew(7deg);
+	         -o-transform: skew(7deg);
 }
 
 #KidsSection .titleBox {

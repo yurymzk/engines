@@ -2,6 +2,7 @@
     <div id="GameSection">
 
         <div class="background">
+          <div class="gameBackImg1"><img src="/images/en_back_game.png"></div>
             <div class="GameWindowWrapper">
                 <GameWindow />
                 <GameWindow />
@@ -10,7 +11,6 @@
         </div>
 
         <div class="gameIcon" id="GameLink"><img src="/images/en_icon_game_01.png"></div>
-        <div class="gameBackImg1"><img src="/images/en_back_game.png"></div>
 
         <div class="button">ボタン</div>
 
@@ -36,19 +36,21 @@ export default {
 
 #GameSection {
     height: 100vh;
-    width: 160vw;
+    width: 120vw;
     position: relative;
 }
 
+
 #GameSection .background {
     position: absolute;
-    width: 160vw;
+    width: 120vw;
     height: 100vh;
-    margin-left: 0px;
-    border-bottom: 100vh solid #3FA2FF;
-    border-left: 270px solid #fff;
-    border-right: 200px solid transparent;
-
+    margin-left: -100px;
+    background-color: #3FA2FF;
+    transform:skew(-7deg);
+    -webkit-transform: skew(-7deg);
+	   -moz-transform: skew(-7deg);
+	     -o-transform: skew(-7deg);
 }
 
 #GameSection .GameWindowWrapper {
@@ -56,20 +58,29 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+      -o-transform: skew(7deg);
+
 }
 
 #GameSection .gameIcon {
     position: absolute;
     top: 30%;
-    left: 70px;
+    left: -200px;
     margin-left: -200px;
     padding-left: 200px;
 }
 #GameSection .gameBackImg1 {
     position: absolute;
-    top: -6%;
-    left: 240px;
-    z-index: 1;
+    margin-top: -3%;
+    left: 65px;
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+      -o-transform: skew(7deg);
 }
 
 #GameSection .button {

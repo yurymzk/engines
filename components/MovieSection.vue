@@ -4,7 +4,7 @@
                 <div id="video">
                 <iframe src="https://www.youtube.com/embed/S8W4yDXQ4Lc?autoplay=1&loop=1&mute=1&showinfo=0&controls=0&playlist=S8W4yDXQ4Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div id="video-overlay"></div>          
+                <div id="video-overlay"></div>
         </div>
     </div>
 </template>
@@ -14,7 +14,7 @@
 <style>
 #MovieSection {
     height: 100vh;
-    width: 90vw;
+    width: 70vw;
 }
 #MovieSection .MovieWindowWrapper {
     height: 100vh;
@@ -27,8 +27,8 @@
     /* wrapperサイズに大路て、leftの位置をJQueryで指定するため、positionはabsoluteにします。 */
     position:fixed;
     top: 0;
-    left: 0; 
-    
+    left: 0;
+
     /* 以下、画面いっぱいにしうるためのCSS設定 */
     min-height: 100%;
     min-height: 100vh;

@@ -1,7 +1,8 @@
 <template>
     <div id="SolutionSection">
     <div class="background">
-        <div class="SolutionWindowWrapper">
+      <div class="SolutionBackImg1"><img src="/images/en_back_sol.png"></div>
+      <div class="SolutionWindowWrapper">
             <div class="titleBox">
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
                 <p>キッズプロジェクト</p>
@@ -10,7 +11,10 @@
 
             </div>
 
-            <div class="SolutionBox"></div>
+            <div class="SolutionBox">
+                    <div class="SolutionBackImg2"><img src="/images/en_img_sol_01.png"></div>
+                    <div class="SolutionBackImg3"><img src="/images/en_img_sol_02.png"></div>
+            </div>
         </div>
 
     </div>
@@ -36,10 +40,10 @@
     margin-left: 388px;
 
     background-color: #D3D3D3;
-    transform:skew(18deg);
-    -webkit-transform: skew(18deg);
-	   -moz-transform: skew(18deg);
-	     -o-transform: skew(18deg);
+    transform:skew(-7deg);
+        -webkit-transform: skew(-7deg);
+	       -moz-transform: skew(-7deg);
+	         -o-transform: skew(-7deg);
 }
 
 #SolutionSection .SolutionWindowWrapper {
@@ -47,10 +51,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform:skew(-18deg);
-        -webkit-transform: skew(-18deg);
-	       -moz-transform: skew(-18deg);
-	         -o-transform: skew(-18deg);}
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+	   -moz-transform: skew(7deg);
+	     -o-transform: skew(7deg);
+}
 
 #SolutionSection .SolutionIcon {
     position: absolute;
@@ -60,6 +65,16 @@
     padding-left: 200px;
 }
 
+#SolutionSection .SolutionBackImg1 {
+    position: absolute;
+    margin-top: -8%;
+    left: 95px;
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+      -o-transform: skew(7deg);
+}
+
 #SolutionSection .titleBox {
     background-color: gray;
 }
@@ -67,8 +82,8 @@
 #SolutionSection .SolutionBox {
     width: 800px;
     height: 600px;
-    background-color: white;
     margin: 0 40px;
+    display: flex;
 }
 </style>
 
