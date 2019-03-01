@@ -1,16 +1,27 @@
 <template>
     <div id="GameWindow">
-        <div class="backgroundTR"></div>
+        <div class="backgroundTR">
 
         <div class="image"></div>
         <div class="infomation">
-            <div class="title"></div>
-            <div class="tag"></div>
-            <div class="text"></div>
-            <div class="web"></div>
+            <div class="title">タイトル</div>
+            <div class="tag">たぐ</div>
+            <div class="text">テキスト</div>
+            <div class="web">web</div>
+        </div>
         </div>
     </div>
     </template>
+
+<script>
+import gamedata from '../assets/gamedata.json'
+
+export default {
+data: () => {
+  gamedata: gamedata
+  }
+}
+</script>
 
 
 <style>
@@ -32,6 +43,12 @@
     right: 10px;
     bottom: 10px;
    background-color: blueviolet;
+
+}
+
+#GameWindow .image{
+
+  height: 50%;
 
 }
 </style>

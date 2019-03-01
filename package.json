@@ -20,6 +20,7 @@
     "vue2-google-maps": "^0.10.6"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "nodemon": "^1.18.9"
   },
   "main": "nuxt.config.js",
