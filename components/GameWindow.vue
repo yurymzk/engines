@@ -4,24 +4,22 @@
 
         <div class="image"></div>
         <div class="infomation">
-            <div class="title">タイトル</div>
-            <div class="tag">たぐ</div>
-            <div class="text">テキスト</div>
-            <div class="web">web</div>
+            <div class="title">タイトル{{ value.title }}</div>
+            <div class="tag">たぐ{{ value.tag }}</div>
+            <div class="text">テキスト{{ value.text }}</div>
+            <div class="web">web{{ value.web }}</div>
+
         </div>
         </div>
     </div>
     </template>
 
 <script>
-import gamedata from '../assets/gamedata.json'
-
 export default {
-data: () => {
-  gamedata: gamedata
-  }
+  props: ['value']
 }
 </script>
+
 
 
 <style>

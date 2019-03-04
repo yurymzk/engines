@@ -4,9 +4,9 @@
         <div class="background">
           <div class="gameBackImg1"><img src="/images/en_back_game.png"></div>
             <div class="GameWindowWrapper">
-                <GameWindow />
-                <GameWindow />
-                <GameWindow />
+                <GameWindow v-model="posts[0]"/>
+                <GameWindow v-model="posts[1]"/>
+                <GameWindow v-model="posts[2]"/>
             </div>
         </div>
 
@@ -23,6 +23,12 @@ import GameWindow from '~/components/GameWindow.vue'
 export default {
     components: {
         GameWindow
+    },
+
+    data() {
+      return {
+      posts: require('~/assets/json/game.json')
+      }
     }
 }
 </script>
