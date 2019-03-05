@@ -16,6 +16,8 @@ $(function(){
       });
       $('.fa-angle-down').toggleClass('rotate');
     });
+    // ロケーションバーの URL が # 付きになるのがイヤ & デフォルト動作を回避するために return false;
+    return false;
 });
 
 //横スクロール
@@ -75,4 +77,33 @@ function movieAdjust(){
 //(3)画面リサイズ時と画面ロード時に関数movieAdjust()を実行
   $(window).on('load resize', function(){
     movieAdjust();
+});
+
+//キャラクター要素のアニメーション制御
+$(function() {
+  $('#main_chara').on('inview',function(event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      //表示域に入ったとき
+    } else {
+      // 表示域から出たとき
+      // 要素の現在位置を取得
+      var charaX = $('#main_chara').offset().left;
+      $(this).removeClass('flyOut'); // 初期化
+
+      // ブラウザの画面中央のX座標店を設定
+      var winSize = $(window).width() / 2;
+      var posX = winSize + charaX - ($(window).width() * 1.1);
+
+
+      $(this).addClass('flyOut');
+
+      $('.flyOut').css({
+        'transform': 'translateX(' + posX + 'px)',
+        '-webkit-transform': 'translateX(' + posX + 'px)'
+      })
+
+
+
+    }
   });
+});

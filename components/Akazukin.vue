@@ -19,5 +19,12 @@
     transform: scale(-1, 1);
 }
 
+/* アニメーション */
+.flyOut {
+    transition: 3s;
+    -webkit-transition: 3s;
+/*    transform: translateX(1000px);
+    -webkit-transform: translateX(1000px); */
+}
 
 </style>

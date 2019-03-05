@@ -19,6 +19,7 @@ module.exports = {
       { src: '/jquery/ua.check.js' },
       { src: '/jquery/jquery.mousewheel.min.js' },
       { src: '/jquery/jquery.easie.js' },
+      { src: '/jquery/jquery.inview.min.js' },
       { src: '/jquery/custom.js' },
 
     ],
