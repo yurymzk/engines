@@ -11,7 +11,12 @@
 
             </div>
 
-            <div class="KidsMovie"></div>
+            <div class="KidsMovie">
+
+                <iframe src="https://www.youtube.com/embed/S8W4yDXQ4Lc?autoplay=1&loop=0&mute=1&showinfo=0&controls=0&playlist=S8W4yDXQ4Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+
+            </div>
         </div>
 
     </div>
@@ -81,5 +86,10 @@
     height: 600px;
     background-color: white;
     margin: 0 40px;
+}
+
+#KidsSection .KidsMovie iframe {
+  width: 100%;
+  height: 100%;
 }
 </style>
