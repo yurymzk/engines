@@ -2,7 +2,8 @@
     <div id="SolutionSection">
     <div class="background">
       <div class="SolutionBackImg1"><img src="/images/en_back_sol.png"></div>
-      <div class="SolutionWindowWrapper">
+      <div class="SolutionBackImg2"><img src="/images/en_back_sol_typo.png"></div>
+            <div class="SolutionWindowWrapper">
             <div class="titleBox">
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
                 <p>キッズプロジェクト</p>
@@ -12,8 +13,8 @@
             </div>
 
             <div class="SolutionBox">
-                    <div class="SolutionBackImg2"><img src="/images/en_img_sol_01.png"></div>
-                    <div class="SolutionBackImg3"><img src="/images/en_img_sol_02.png"></div>
+                    <div class="SolutionImg1"><img src="/images/en_img_sol_01.png"></div>
+                    <div class="SolutionImg2"><img src="/images/en_img_sol_02.png"></div>
             </div>
         </div>
 
@@ -29,13 +30,13 @@
 <style>
 #SolutionSection {
     height: 100vh;
-    width: 138vw;
+    width: 120vw;
     position: relative;
 }
 
 #SolutionSection .background {
     position: absolute;
-    width: 130vw;
+    width: 110vw;
     height: 100vh;
     margin-left: 388px;
 
@@ -69,6 +70,15 @@
     position: absolute;
     margin-top: -8%;
     left: 95px;
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+      -o-transform: skew(7deg);
+}
+#SolutionSection .SolutionBackImg2 {
+    position: absolute;
+    bottom: 40px;
+    right: 340px;
     transform:skew(7deg);
     -webkit-transform: skew(7deg);
     -moz-transform: skew(7deg);

@@ -2,6 +2,7 @@
     <div id="KidsSection">
     <div class="background">
         <div class="KidsBackImg1"><img src="/images/en_back_kids.png"></div>
+        <div class="KidsBackImg2"><img src="/images/en_back_kids_typo.png"></div>
         <div class="KidsWindowWrapper">
             <div class="titleBox">
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
@@ -71,6 +72,15 @@
     position: absolute;
      margin-top: -9%;
     left: 135px;
+    transform:skew(7deg);
+        -webkit-transform: skew(7deg);
+	       -moz-transform: skew(7deg);
+	         -o-transform: skew(7deg);
+}
+#KidsSection .KidsBackImg2 {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
     transform:skew(7deg);
         -webkit-transform: skew(7deg);
 	       -moz-transform: skew(7deg);

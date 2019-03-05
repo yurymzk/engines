@@ -8,7 +8,7 @@
 <style>
 #main_chara {
   position:absolute ;
-  z-index: 15;
+  z-index: 9;
   bottom: 30px;
   left: 110vw;
 }

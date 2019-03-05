@@ -3,7 +3,8 @@
 
         <div class="background">
           <div class="gameBackImg1"><img src="/images/en_back_game.png"></div>
-            <div class="GameWindowWrapper">
+          <div class="gameBackImg2"><img src="/images/en_back_game_typo.png"></div>
+                      <div class="GameWindowWrapper">
                 <GameWindow v-model="posts[0]"/>
                 <GameWindow v-model="posts[1]"/>
                 <GameWindow v-model="posts[2]"/>
@@ -88,14 +89,27 @@ export default {
     -moz-transform: skew(7deg);
       -o-transform: skew(7deg);
 }
+#GameSection .gameBackImg2 {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    transform:skew(7deg);
+    -webkit-transform: skew(7deg);
+    -moz-transform: skew(7deg);
+      -o-transform: skew(7deg);
+}
 
 #GameSection .button {
     position: absolute;
+    width: 80px;
+    height: 80px;
     right: 0;
     bottom: 0;
-    margin-right: 200px;
+    margin-right: 250px;
     margin-bottom:50px;
     padding: 20px;
+    color: white;
+    background-color: navy;
 
 }
 </style>
