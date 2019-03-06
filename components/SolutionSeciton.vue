@@ -5,8 +5,8 @@
       <div class="SolutionBackImg2"><img src="/images/en_back_sol_typo.png"></div>
             <div class="SolutionWindowWrapper">
             <div class="titleBox">
-              <div class="SolutionImg1"><img src="/images/en_img_sol_04.png"></div>
-              <div class="SolutionImg2"><img src="/images/en_img_sol_03.png"></div>
+              <div class="SolutionImg3"><img src="/images/en_img_sol_04.png"></div>
+              <div class="SolutionImg4"><img src="/images/en_img_sol_03.png"></div>
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
                 <p>キッズプロジェクト</p>
                 <p>ダミー文章</p>
@@ -92,11 +92,12 @@
     background-color: gray;
 }
 
-#SolutionSection .SolutionImg1 {
+
+#SolutionSection .SolutionImg3 {
     margin : 30px;
 }
 
-#SolutionSection .SolutionImg2 img{
+#SolutionSection .SolutionImg4 img{
     width : 100px;
     margin : 30px;
 }
