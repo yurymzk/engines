@@ -24,8 +24,8 @@
 
 #MovieSection #video,
 #MovieSection #video-overlay {
-    /* wrapperサイズに大路て、leftの位置をJQueryで指定するため、positionはabsoluteにします。 */
-    position:fixed;
+    /* wrapperサイズに、leftの位置をJQueryで指定するため、positionはabsoluteにします。 */
+    position:absolute;
     top: 0;
     left: 0;
 
@@ -45,11 +45,12 @@
 }
 
 #MovieSection #video iframe{
-  position: fixed;
+  position: absolute;
   z-index: 0;
   top:50%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+  height: 100vh !important;
 }
 </style>

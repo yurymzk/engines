@@ -29,7 +29,7 @@ $(function() {
     cont.css('width', contW);
 
     //スクロールスピード
-    var speed = 100;
+    var speed = 200;
     var scrollx = 0;
     //マウスホイールで横移動
     $('html').mousewheel(function(event, mov) {
@@ -106,12 +106,25 @@ $(function() {
   });
 });
 
-$(function() {
+/*$(function() {
    // キャラクター要素をクリックしたときの挙動
   $('#main_chara').on('click',function() {
     // バウンス
     $(this).addClass('animated bounce');
+    $(this).addClass('test');
+    $('.test').animate({
+      "animation-duration": "1s",
+      "animation-fill-mode": "both",
+      "animation-name": "bounce",
+      "transform-origin": "center bottom"
+    },{
+      complete:function(){
+        //animate完了後に実行
+        $(this).removeClass('test');
+      }
+    });
 
 
   });
 });
+*/
