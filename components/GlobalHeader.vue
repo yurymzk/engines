@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.logo-home img {
+      width: 50px;
+}
+
 .logo-change-height {
   height: 40%;
   transition: all 1s ease 0s;
