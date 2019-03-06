@@ -81,6 +81,7 @@ function movieAdjust(){
 
 //キャラクター要素のアニメーション制御
 $(function() {
+  // キャラクター要素が表示域にIn-Outするときの挙動
   $('#main_chara').on('inview',function(event, isInView, visiblePartX, visiblePartY) {
 
     // 要素の現在位置を取得
@@ -102,5 +103,15 @@ $(function() {
         'transform': 'translateX(' + posX + 'px)',
         '-webkit-transform': 'translateX(' + posX + 'px)'
       })
+  });
+});
+
+$(function() {
+   // キャラクター要素をクリックしたときの挙動
+  $('#main_chara').on('click',function() {
+    // バウンス
+    $(this).addClass('animated bounce');
+
+
   });
 });
