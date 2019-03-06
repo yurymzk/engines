@@ -7,7 +7,7 @@
                       <div class="GameWindowWrapper">
                 <GameWindow v-model="posts[0]"/>
                 <GameWindow v-model="posts[1]"/>
-                <GameWindow v-model="posts[2]"/>
+
             </div>
         </div>
 
