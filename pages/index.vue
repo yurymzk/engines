@@ -56,7 +56,7 @@ export default {
 
 .backgroundLB {
     position: absolute;
-    left: 310vw;
+    left: 300vw;
     width: 600px;
     height: 100vh;
     background-image: linear-gradient(-45deg,lightblue 25%, rgb(137, 191, 245) 25%, rgb(137, 191, 245) 50%,lightblue 50%, lightblue 75%, rgb(137, 191, 245) 75%,  rgb(137, 191, 245));
@@ -65,7 +65,7 @@ export default {
 
 .backgroundBK {
     position: absolute;
-    left: 425vw;
+    left: 415vw;
     width: 600px;
     height: 100vh;
     background-image: linear-gradient(-45deg,gray 25%, lightgray 25%, lightgray 50%,gray 50%, gray 75%, lightgray 75%,  lightgray);
@@ -73,6 +73,7 @@ export default {
 }
 
 .backgroundGR {
+  display: none;
     position: absolute;
     left: 633vw;
     width: 600px;
