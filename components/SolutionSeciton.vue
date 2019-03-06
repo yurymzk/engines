@@ -87,8 +87,8 @@
 }
 
 #SolutionSection .titleBox {
-    width: 400px;
-    height: 600px;
+    width: 23vw;
+    height: 76vh;
     background-color: gray;
 }
 

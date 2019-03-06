@@ -90,8 +90,8 @@
 
 #KidsSection .titleBox {
     background-color: orange;
-    width: 400px;
-    height: 600px;
+    width: 23vw;
+    height: 76vh;
 }
 #KidsSection .KidsImg1 {
     margin : 30px;
