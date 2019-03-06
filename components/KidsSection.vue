@@ -5,10 +5,11 @@
         <div class="KidsBackImg2"><img src="/images/en_back_kids_typo.png"></div>
         <div class="KidsWindowWrapper">
             <div class="titleBox">
+                <div class="KidsImg1"><img src="/images/en_img_kids_01.png"></div>
                 <p>「君はほんとはすごいんだ！！」を伝えたい</p>
                 <p>キッズプロジェクト</p>
                 <p>ダミー文章</p>
-                <div class="button"></div>
+                <div class="button">ボタン</div>
 
             </div>
 
@@ -89,6 +90,23 @@
 
 #KidsSection .titleBox {
     background-color: orange;
+    width: 400px;
+    height: 600px;
+}
+#KidsSection .KidsImg1 {
+    margin : 30px;
+}
+
+#KidsSection .button {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    background-color: #FF1B1B;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;/* for Safari and Chrome 対応*/
+    -moz-border-radius: 5px;/* for Firefox 対応*/
+
 }
 
 #KidsSection .KidsMovie {

@@ -86,6 +86,8 @@
 }
 
 #SolutionSection .titleBox {
+    width: 400px;
+    height: 600px;
     background-color: gray;
 }
 
