@@ -40,14 +40,24 @@ $(function() {
         scrollx = $(this).scrollLeft() - mov * speed;
       }
 
-      // ターゲットの半分を過ぎたら次のセクションまでスクロール
-        $('html,body')
-        .stop()
-        .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
-        //イージングプラグイン使わない場合
-        //.animate({ scrollLeft: scrollx }, 'normal');
+      // ターゲットがブラウザの半分を過ぎたら次のセクションまでスクロール
+      snapVTarget = $('#VisionSection').offset().left;
+      snapGTarget = $('#GameLink').offset().left;
+      snapKTarget = $('#KidsLink').offset().left;
+      snapSTarget = $('#SolutionLink').offset().left;
+      snapCTarget = $('#CompanyLink').offset().left;
 
-        return false; // 縦スクロール不可
+      // ブラウザの真ん中あたりが開始一からどれだけ進んでいるか？
+      nowPos = $(this).scrollLeft() + $(window).width();  // 進んだ位置
+
+      // イージング
+      $('html,body')
+      .stop()
+      .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
+      //イージングプラグイン使わない場合
+      //.animate({ scrollLeft: scrollx }, 'normal');
+
+      return false; // 縦スクロール不可
     });
 
     $('a[href^="#"]').on('click',function() {
@@ -58,6 +68,8 @@ $(function() {
         $('html, body').animate({scrollLeft:position}, speed, 'swing');
         return false;
     });
+
+
 });
 
 
