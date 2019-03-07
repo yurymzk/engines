@@ -1,12 +1,16 @@
 <template>
+
     <div id="MovieSection">
-        <div class="MovieWindowWrapper">
+<a href="#VisionSection">
+          <div class="MovieWindowWrapper">
                 <div id="video">
                 <iframe src="https://www.youtube.com/embed/S8W4yDXQ4Lc?autoplay=1&loop=1&mute=1&showinfo=0&controls=0&playlist=S8W4yDXQ4Lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div id="video-overlay"></div>
         </div>
+</a>
     </div>
+
 </template>
 
 
