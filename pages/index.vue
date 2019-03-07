@@ -70,7 +70,7 @@ export default {
 .backgroundLB {
     position: absolute;
     left: 300vw;
-    width: 600px;
+    width: 50vw;
     height: 100vh;
     background-image: linear-gradient(-45deg,lightblue 25%, rgb(137, 191, 245) 25%, rgb(137, 191, 245) 50%,lightblue 50%, lightblue 75%, rgb(137, 191, 245) 75%,  rgb(137, 191, 245));
     background-size: 14px 14px;
@@ -79,7 +79,7 @@ export default {
 .backgroundBK {
     position: absolute;
     left: 415vw;
-    width: 600px;
+    width: 50vw;
     height: 100vh;
     background-image: linear-gradient(-45deg,gray 25%, lightgray 25%, lightgray 50%,gray 50%, gray 75%, lightgray 75%,  lightgray);
     background-size: 14px 14px;
@@ -89,7 +89,7 @@ export default {
   display: none;
     position: absolute;
     left: 633vw;
-    width: 600px;
+    width: 50vw;
     height: 100vh;
     background-color: white;
 
@@ -101,7 +101,7 @@ export default {
 #SolutionSection .SolutionIcon img,
 #CompanySection .CompanyIcon img
  {
-    width: 200px;
+    width: 12vw;
     filter: drop-shadow(9px 10px 3px #222);
 }
 

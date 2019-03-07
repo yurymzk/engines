@@ -9,13 +9,13 @@
 #main_chara {
   position:absolute ;
   z-index: 9;
-  bottom: 30px;
+  bottom: 3vh;
   left: 110vw;
 }
 
 /* キャラクター */
 #main_chara img {
-    width: 100px;
+    width: 7vw;
     transform: scale(-1, 1);
 }
 

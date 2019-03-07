@@ -40,6 +40,7 @@ $(function() {
         scrollx = $(this).scrollLeft() - mov * speed;
       }
 
+      // ターゲットの半分を過ぎたら次のセクションまでスクロール
         $('html,body')
         .stop()
         .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
@@ -78,6 +79,7 @@ function movieAdjust(){
   $(window).on('load resize', function(){
     movieAdjust();
 });
+
 
 //キャラクター要素のアニメーション制御
 $(function() {

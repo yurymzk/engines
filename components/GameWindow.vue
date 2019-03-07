@@ -24,22 +24,22 @@ export default {
 
 <style>
 #GameWindow {
-    width: 400px;
-    height: 600px;
+    width: 25vw;
+    height: 76vh;
     position: relative;
     background-image: linear-gradient(-45deg,white 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%,white 50%, white 75%, rgba(0, 0, 0, 0) 75%,  rgba(0, 0, 0, 0));
     background-size:8px 8px;
-    margin: 30px;
+    margin: 2vw;
     z-index: 2;
 
 }
 
 #GameWindow .backgroundTR {
-    width: 400px;
-    height: 600px;
+    width: 25vw;
+    height: 76vh;
     position: relative;
-    right: 10px;
-    bottom: 10px;
+    right: 1vw;
+    bottom: 1vw;
    background-color: blueviolet;
 
 }

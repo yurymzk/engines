@@ -49,7 +49,7 @@ export default {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    margin-left: 200px;
+    margin-left: 13vw;
 
 }
 #CompanySection .CompanyWindowWrapper {
@@ -72,22 +72,22 @@ export default {
     position: absolute;
     left: 0;
     width : 5em;
-    padding-top: 10px;
+    padding-top: 1vh;
 }
 
 #CompanySection dd {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 7em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 7vw;
     border-bottom: solid 1px #ccc;
 }
 
 #CompanySection .CompanyIcon {
     position: absolute;
     top: 30%;
-    left: -310px;
-    margin-left: -200px;
-    padding-left: 200px;
+    left: -19vw;
+    margin-left: -13vw;
+    padding-left: 13vw;
 }
 
 </style>

@@ -39,7 +39,7 @@
     position: absolute;
     width: 110vw;
     height: 100vh;
-    margin-left: 388px;
+    margin-left: 24vw;
 
     background-color: #D3D3D3;
     transform:skew(-7deg);
@@ -62,9 +62,9 @@
 #SolutionSection .SolutionIcon {
     position: absolute;
     top: 30%;
-    left: 295px;
-    margin-left: -200px;
-    padding-left: 200px;
+    left: 18vw;
+    margin-left: -13vw;
+    padding-left: 13vw;
 }
 
 #SolutionSection .SolutionBackImg1 {
@@ -94,18 +94,18 @@
 
 
 #SolutionSection .SolutionImg3 {
-    margin : 30px;
+    margin : 1vw;
 }
 
 #SolutionSection .SolutionImg4 img{
-    width : 100px;
-    margin : 30px;
+    width: 6vw;
+    margin: 2vh;
 }
 
 #SolutionSection .SolutionBox {
-    width: 800px;
-    height: 600px;
-    margin: 0 40px;
+    width: 50vw;
+    height: 76vh;
+    margin: 0 4vw;
     display: flex;
 }
 </style>

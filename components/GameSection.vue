@@ -52,7 +52,7 @@ export default {
     position: absolute;
     width: 120vw;
     height: 100vh;
-    margin-left: -100px;
+    margin-left: -7vw;
     background-color: #3FA2FF;
     transform:skew(-7deg);
     -webkit-transform: skew(-7deg);
@@ -76,14 +76,14 @@ export default {
 #GameSection .gameIcon {
     position: absolute;
     top: 30%;
-    left: -200px;
-    margin-left: -200px;
-    padding-left: 200px;
+    left: -13vw;
+    margin-left: -13vw;
+    padding-left: 13vw;
 }
 #GameSection .gameBackImg1 {
     position: absolute;
     margin-top: -3%;
-    left: 65px;
+    left: 6vw;
     transform:skew(7deg);
     -webkit-transform: skew(7deg);
     -moz-transform: skew(7deg);
@@ -91,8 +91,8 @@ export default {
 }
 #GameSection .gameBackImg2 {
     position: absolute;
-    bottom: 40px;
-    right: 0px;
+    bottom: 4vw;
+    right: 0;
     transform:skew(7deg);
     -webkit-transform: skew(7deg);
     -moz-transform: skew(7deg);
@@ -101,13 +101,13 @@ export default {
 
 #GameSection .button {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    height: 5vw;
     right: 0;
     bottom: 0;
-    margin-right: 250px;
-    margin-bottom:50px;
-    padding: 20px;
+    margin-right: 20vw;
+    margin-bottom: 3vw;
+    padding: 1.2vw;
     color: white;
     background-color: navy;
 

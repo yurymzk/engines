@@ -41,7 +41,7 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    margin-left: 135px;
+    margin-left: 8vw;
 
     background-color: #FF1B1B;
     transform:skew(-7deg);
@@ -64,15 +64,15 @@
 #KidsSection .KidsIcon {
     position: absolute;
     top: 30%;
-    left: 50px;
-    margin-left: -200px;
-    padding-left: 200px;
+    left: 3vw;
+    margin-left: -13vw;
+    padding-left: 13vw;
 }
 
 #KidsSection .KidsBackImg1 {
     position: absolute;
      margin-top: -9%;
-    left: 135px;
+    left: 6vw;
     transform:skew(7deg);
         -webkit-transform: skew(7deg);
 	       -moz-transform: skew(7deg);
@@ -80,8 +80,8 @@
 }
 #KidsSection .KidsBackImg2 {
     position: absolute;
-    bottom: 40px;
-    right: 0px;
+    bottom: 3vw;
+    right: 0;
     transform:skew(7deg);
         -webkit-transform: skew(7deg);
 	       -moz-transform: skew(7deg);
@@ -94,28 +94,28 @@
     height: 76vh;
 }
 #KidsSection .KidsImg1 {
-    margin : 30px;
+    margin : 2vw;;
 }
 
 #KidsSection .button {
-    width: 300px;
-    margin: 20px auto;
-    padding: 20px;
+    width: 18vw;
+    margin: 1vw auto;
+    padding: 1vw;
     color: white;
     background-color: #FF1B1B;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;/* for Safari and Chrome 対応*/
-    -moz-border-radius: 5px;/* for Firefox 対応*/
+    border-radius: 0.3vw;
+    -webkit-border-radius: 0.3vw;/* for Safari and Chrome 対応*/
+    -moz-border-radius: 0.3vw;/* for Firefox 対応*/
 
 }
 
 
 #KidsSection .KidsMovie {
     position: relative;
-    width: 800px;
-    height: 600px;
+    width: 50vw;
+    height: 35vw;
     background-color: white;
-    margin: 0 40px;
+    margin: 0 1.7vw;
 }
 
 #KidsSection .KidsMovie-movie,

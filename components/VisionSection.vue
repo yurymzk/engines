@@ -18,7 +18,7 @@
 }
 
 #VisionSection .title{
-    font-size: 60px;
+    font-size: 5em;
     font-weight: bold;
     text-align: initial;
     position: absolute;
@@ -30,8 +30,8 @@
 #VisionSection .copy {
     text-align: right;
     position: absolute;
-    right: 225px;
+    right: 15vw;
     bottom: 0;
-    padding: 40px;
+    padding: 4vw;
 }
 </style>
