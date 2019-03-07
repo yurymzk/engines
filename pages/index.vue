@@ -1,15 +1,16 @@
 <template>
   <section id="container">
+    <a href="#VisionSection"><div class="topLink"></div></a>
     <div class="backgroundLB"></div>
     <div class="backgroundBK"></div>
     <div class="backgroundGR"></div>
 
-    <div class="box"><MovieSection /></div>
-    <div class="box"><VisionSection /></div>
-    <div class="box"><GameSection /></div>
-    <div class="box"><KidsSection /></div>
-    <div class="box"><SolutionSeciton /></div>
-    <div class="box"><CompanySeciton /></div>
+    <div class="box scrollsnap"><MovieSection /></div>
+    <div class="box scrollsnap"><VisionSection /></div>
+    <div class="box scrollsnap"><GameSection /></div>
+    <div class="box scrollsnap"><KidsSection /></div>
+    <div class="box scrollsnap"><SolutionSeciton /></div>
+    <div class="box scrollsnap"><CompanySeciton /></div>
 
   <Akazukin />
 
@@ -48,12 +49,24 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 
+.topLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
 .box {
 	height:100%;
 }
 
+.scrollsnap {
+
+}
 .backgroundLB {
     position: absolute;
     left: 300vw;
