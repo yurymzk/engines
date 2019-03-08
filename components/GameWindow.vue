@@ -39,7 +39,9 @@ export default {
 
 #GameWindow .backgroundTR {
     width: 25vw;
+    min-width: 400px;
     height: 76vh;
+    max-height: 560px;
     position: relative;
     right: 1vw;
     bottom: 1vw;
