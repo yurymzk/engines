@@ -88,7 +88,9 @@
 
 #SolutionSection .titleBox {
     width: 23vw;
+    min-width: 400px;
     height: 76vh;
+    max-height: 560px;
     background-color: gray;
 }
 
@@ -97,8 +99,12 @@
     margin : 1vw;
 }
 
+#SolutionSection .SolutionImg3 img {
+    margin : 1vw;
+    width: 80%;
+}
 #SolutionSection .SolutionImg4 img{
-    width: 6vw;
+    width: 20%;
     margin: 2vh;
 }
 

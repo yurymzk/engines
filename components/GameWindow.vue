@@ -24,8 +24,11 @@ export default {
 
 <style>
 #GameWindow {
-    width: 25vw;
+    width: 23vw;
+    min-width: 400px;
     height: 76vh;
+    max-height: 560px;
+
     position: relative;
     background-image: linear-gradient(-45deg,white 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%,white 50%, white 75%, rgba(0, 0, 0, 0) 75%,  rgba(0, 0, 0, 0));
     background-size:8px 8px;

@@ -91,14 +91,16 @@
 #KidsSection .titleBox {
     background-color: orange;
     width: 23vw;
+    min-width: 400px;
     height: 76vh;
+    max-height: 560px;
 }
 #KidsSection .KidsImg1 {
     margin : 2vw;;
 }
 
 #KidsSection .button {
-    width: 18vw;
+    width: 80%;
     margin: 1vw auto;
     padding: 1vw;
     color: white;
