@@ -22,6 +22,12 @@ $(function(){
 
 //横スクロール
 $(function() {
+  // イージング処理
+  function easingAnimation(position, moveSpeed){
+    $('html, body').animate({scrollLeft:position}, moveSpeed, 'swing');
+    return false;
+  }
+
     // コンテンツの横サイズ
     var cont = $('#container');
     var contW = $('.box').outerWidth(true) * $('div',cont).lenght;
@@ -33,13 +39,6 @@ $(function() {
     var scrollx = 0;
     //マウスホイールで横移動
     $('html').mousewheel(function(event, mov) {
-      if( (uaObj.browserName == "chrome") || (uaObj.browserName == "safari")){
-         //webkit
-        scrollx = $('body').scrollLeft() - mov * speed;
-          //ie firefox
-        scrollx = $(this).scrollLeft() - mov * speed;
-      }
-
       // ターゲットがブラウザの半分を過ぎたら次のセクションまでスクロール
       snapVTarget = $('#VisionSection').offset().left;
       snapGTarget = $('#GameLink').offset().left;
@@ -49,24 +48,75 @@ $(function() {
 
       // ブラウザの真ん中あたりが開始一からどれだけ進んでいるか？
       nowPos = $(this).scrollLeft() + $(window).width();  // 進んだ位置
+      var movePos = $(window).width() / 3 ;
+      var moveSpeed = 3000;
 
-      // イージング
-      $('html,body')
-      .stop()
-      .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
-      //イージングプラグイン使わない場合
-      //.animate({ scrollLeft: scrollx }, 'normal');
 
-      return false; // 縦スクロール不可
+      var delta = event.originalEvent.deltaX ? -(event.originalEvent.deltaY) : event.originalEvent.wheelDelta ? event.originalEvent.wheelDelta : -(event.originalEvent.detail);
+      if (delta < 0){
+          // マウスホイールを右にスクロールしたときの処理を記載
+          if (nowPos == snapVTarget){
+            easingAnimation(snapVTarget, moveSpeed);
+          } else if (nowPos - $(window).width() < snapGTarget) {
+            easingAnimation(snapGTarget, moveSpeed);
+          } else if (nowPos < snapSTarget -300 && nowPos > snapKTarget + movePos) {
+            easingAnimation(snapKTarget, moveSpeed);
+          } else if (nowPos < snapCTarget -300  && nowPos > snapSTarget + movePos) {
+            easingAnimation(snapSTarget, moveSpeed);
+          } else if (nowPos > snapCTarget + movePos) {
+            easingAnimation(snapCTarget, moveSpeed);
+          } else {
+            // Windowsのみの対応
+            if (uaObj.macFlag == false){
+              if( (uaObj.browserName == "chrome") || (uaObj.browserName == "safari")){
+                //webkit
+                scrollx = $('body').scrollLeft() - mov * speed;
+                  //ie firefox
+                scrollx = $(this).scrollLeft() - mov * speed;
+              }
+            }
+            // イージング
+            $('html,body')
+            .stop()
+            .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
+            //イージングプラグイン使わない場合
+            //.animate({ scrollLeft: scrollx }, 'normal');
+
+            return false; // 縦スクロール不可
+
+          }
+
+      } else {
+          // マウスホイールを左にスクロールしたときの処理を記載
+
+
+            // Windowsのみの対応
+            if (uaObj.macFlag == false){
+              if( (uaObj.browserName == "chrome") || (uaObj.browserName == "safari")){
+                //webkit
+                scrollx = $('body').scrollLeft() - mov * speed;
+                  //ie firefox
+                scrollx = $(this).scrollLeft() - mov * speed;
+              }
+            }
+            // イージング
+            $('html,body')
+            .stop()
+            .animate({scrollLeft: scrollx}, 'slow',$.easie(0,0,0,1));
+            //イージングプラグイン使わない場合
+            //.animate({ scrollLeft: scrollx }, 'normal');
+
+            return false; // 縦スクロール不可
+      }
     });
 
+    // ページ内リンククリック時
     $('a[href^="#"]').on('click',function() {
         var speed = 3000;
         var href = $(this).attr("href");
         var target = $(href == "#" || href == "" ? 'html' : href);
         var position = target.offset().left; // target の位置を取得
-        $('html, body').animate({scrollLeft:position}, speed, 'swing');
-        return false;
+        easingAnimation(position, speed);
     });
 
 
