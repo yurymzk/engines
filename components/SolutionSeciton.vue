@@ -31,7 +31,7 @@
 <style>
 #SolutionSection {
     height: 100vh;
-    width: 120vw;
+    width: 130vw;
     position: relative;
 }
 
@@ -94,6 +94,11 @@
     background-color: gray;
 }
 
+#SolutionSection .SolutionImg1 img,
+#SolutionSection .SolutionImg2 img{
+    height: 76vh;
+    max-height: 560px;
+}
 
 #SolutionSection .SolutionImg3 {
     margin : 1vw;
