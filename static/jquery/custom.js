@@ -47,17 +47,19 @@ $(function() {
       snapCTarget = $('#CompanyLink').offset().left;
 
       // ブラウザの真ん中あたりが開始一からどれだけ進んでいるか？
-      nowPos = $(this).scrollLeft() + $(window).width();  // 進んだ位置
+      var nowLeftPos = $(this).scrollLeft();
+      var nowPos = nowLeftPos + $(window).width();  // 進んだ位置
       var movePos = $(window).width() / 3 ;
       var moveSpeed = 3000;
 
 
       var delta = event.originalEvent.deltaX ? -(event.originalEvent.deltaY) : event.originalEvent.wheelDelta ? event.originalEvent.wheelDelta : -(event.originalEvent.detail);
       if (delta < 0){
+        /*
           // マウスホイールを右にスクロールしたときの処理を記載
-          if (nowPos == snapVTarget){
+          if (nowLeftPos == 0){
             easingAnimation(snapVTarget, moveSpeed);
-          } else if (nowPos - $(window).width() < snapGTarget) {
+          } else if (nowLeftPos < snapGTarget) {
             easingAnimation(snapGTarget, moveSpeed);
           } else if (nowPos < snapSTarget -300 && nowPos > snapKTarget + movePos) {
             easingAnimation(snapKTarget, moveSpeed);
@@ -66,6 +68,7 @@ $(function() {
           } else if (nowPos > snapCTarget + movePos) {
             easingAnimation(snapCTarget, moveSpeed);
           } else {
+            */
             // Windowsのみの対応
             if (uaObj.macFlag == false){
               if( (uaObj.browserName == "chrome") || (uaObj.browserName == "safari")){
@@ -74,7 +77,7 @@ $(function() {
                   //ie firefox
                 scrollx = $(this).scrollLeft() - mov * speed;
               }
-            }
+/*            } */
             // イージング
             $('html,body')
             .stop()
